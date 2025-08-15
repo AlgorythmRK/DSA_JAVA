@@ -1,6 +1,6 @@
 import java.util.*;
 public class Loops {
-        public static void main(String args[])
+        public static void main(String [] args)
         {
             int i=0;
             for(int counter=0;counter<11;counter++) {
@@ -38,5 +38,4 @@ public class Loops {
             }
         }
     }
-
 
