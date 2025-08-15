@@ -1,2 +1,10 @@
-# DSA_JAVA
-This repository contains my complete practice of Data Structures and Algorithms (DSA) using Java. Each file is organized by topic for easy reference and continuous learning..
+# Java DSA Repository
+
+Welcome to my Data Structures and Algorithms (DSA) practice repository built using **Java**.  
+This is a personal archive of problems and code Snippets I've solved while learning and practicing core DSA concepts.
+
+---
+
+## 🔍 Topics Covered
+
+- ✅ Arrays
