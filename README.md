@@ -7,4 +7,5 @@ This is a personal archive of problems and code Snippets I've solved while learn
 
 ## 🔍 Topics Covered
 
-- ✅ Arrays
+- Conditional Statements
+- Loops
