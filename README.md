@@ -9,3 +9,5 @@ This is a personal archive of problems and code Snippets I've solved while learn
 
 - Conditional Statements
 - Loops
+- Patterns
+  
