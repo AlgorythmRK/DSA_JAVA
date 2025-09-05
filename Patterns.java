@@ -33,14 +33,83 @@ public class Patterns {
             System.out.println();
 
         }
-
+        System.out.println();
         //Half-pyramid
-
         for(int i=1;i<=n;i++)
         {
             for(int j=1;j<=i;j++)
             {
                 System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        //Inverted pyramid
+       for(int i=n;i>=1;i--)
+       {
+           for(int j=1;j<=i;j++)
+           {
+               System.out.print("*");
+           }
+           System.out.println();
+       }
+        System.out.println();
+       //inverted mirrored pyramid
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int j=i;j<=n;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        //180* rotated pyramid
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=0;j<=n-i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        //Half pyramid with numbers
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+        System.out.println();
+        //inverted half pyramid with numbers
+        for(int i=n;i>=1;i--)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+        System.out.println();
+        //Floyd's triangle
+        int x=1;
+        for(int i=0;i<=n;i++)
+        {
+            for(int j=0;j<=i;j++)
+            {
+                System.out.print(x+" ");
+                x++;
             }
             System.out.println();
         }
