@@ -129,5 +129,35 @@ public class Patterns {
             }
             System.out.println();
         }
+        System.out.println();
+        //Solid Rhombus
+        for(int i=n;i>=1;i--)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int j=1;j<=n;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        //Number Pyramid
+        int t=1;
+        for(int i=n;i>=1;i--)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int j=1;j<=t;j++)
+            {
+                System.out.print(t+" ");
+            }
+            t++;
+            System.out.println();
+        }
     }
 }
